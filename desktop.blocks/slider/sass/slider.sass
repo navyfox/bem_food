@@ -1,0 +1,17 @@
+.before
+  content: ''
+  width: 100%
+  height: 100%
+  position: absolute
+  left: 0
+  top: 0
+
+
+.slider
+  background-image: url(/desktop.blocks/slider/slider.jpg)
+  min-height: 720px
+  background-size: cover
+  background-position: center
+  &::before
+    @extend .before
+    background-color: #00A000

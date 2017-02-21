@@ -1,0 +1,15 @@
+.button_food_eat{
+    border-width: 2px;
+    border-color: rgb(232, 80, 14);
+    border-style: dashed;
+    border-radius: 3px;
+    background-color: rgb(255, 254, 252);
+    width: 100px;
+    height: 33px;
+    margin: 0 25px 0 0;
+}
+
+.button_food_eat .button__text {
+    font-size: 14px;
+    color: rgba(232, 80, 14, 0.98);
+}

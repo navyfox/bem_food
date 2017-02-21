@@ -1,0 +1,15 @@
+.title_popular_1 {}
+
+.title_popular_1 .title__first {
+    color: rgba(38, 38, 43, 0.98);
+    font-size: 32px;
+    letter-spacing: 0px;
+}
+
+.title_popular_1 .title__second {
+    color: rgb(46, 46, 50);
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+

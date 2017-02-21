@@ -1,0 +1,26 @@
+.eat{
+    background-color: rgb(252, 251, 249);
+    border: grey 1px solid;
+    width: 355px;
+    height: 450px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+@media all and (max-width: 800px) {
+    .eat{
+        margin: 0 0 20px 0;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .eat{
+        margin: 0 0 20px 0;
+    }
+}
+@media all and (max-width: 400px) {
+    .eat{
+        margin: 0 0 20px 0;
+        width: 310px;
+    }
+}

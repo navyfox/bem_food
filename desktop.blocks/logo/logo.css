@@ -1,0 +1,16 @@
+.logo{
+    display: block;
+    width: 100px;
+    margin: auto;
+
+}
+
+.logo .image{
+    width: 100px;
+}
+
+.logo__slogan{
+    font-size: 12px;
+    color: rgb(182, 182, 182);
+    text-align: center;
+}

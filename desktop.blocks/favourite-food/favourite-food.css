@@ -1,0 +1,25 @@
+.favourite-food {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-flow: row nowrap;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: auto;
+    margin-top: 50px;
+}
+@media all and (max-width: 800px) {
+    .favourite-food{
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 1080px) {
+    .favourite-food{
+        flex-direction: column;
+    }
+}

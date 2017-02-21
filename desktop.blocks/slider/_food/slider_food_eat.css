@@ -1,0 +1,15 @@
+.slider_food_eat {
+    min-height: 205px;
+    background-image: url(/desktop.blocks/slider/_food/slider_eat.png);
+    padding-top: 0px;
+}
+
+.slider_food_eat::after {
+    content: '';
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    background-image: url(/desktop.blocks/slider/_food/before.png);
+    width: 100%;
+
+}

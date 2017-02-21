@@ -1,0 +1,22 @@
+.button_food_1{
+    order: 2;
+    border-radius: 3px;
+    background-color: rgb(255, 85, 14);
+    border: none;
+    width: 200px;
+    height: 55px;
+}
+
+.button_food_1 .icon{
+    background-image: url("/desktop.blocks/button/icon.png");
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.button_food_1 .button__text{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    float: left;
+    margin-left: 47px;
+}

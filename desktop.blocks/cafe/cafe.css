@@ -1,0 +1,16 @@
+.cafe {
+    margin-top: 26px;
+    height: 70px;
+    border-top: 1px solid rgb(237, 237, 237);
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+}

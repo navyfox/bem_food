@@ -1,0 +1,34 @@
+.input_food_1{
+    order: 1;
+    margin-right: 10px;
+    display: flex;
+}
+
+.input_food_1 .input__box{}
+
+.input_food_1 .input__control{
+    border-radius: 3px;
+    border: none;
+    color: rgb(187, 188, 192);
+    background-color: rgb(244, 243, 249);
+    font-size: 17px;
+    line-height: 2.167;
+    text-align: left;
+    padding-left: 25px;
+
+    width: 344px;
+    height: 55px;
+
+    max-width: 100%;
+
+}
+
+
+@media all and (max-width: 600px) {
+    .input_food_1 .input__control {
+        width: 90%;
+    }
+    .input_food_1 {
+        margin-bottom: 20px;
+    }
+}

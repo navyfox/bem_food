@@ -1,0 +1,28 @@
+.title_food_eat{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+.title_food_eat .title__first{
+    font-size: 21px;
+    color: rgb(65, 69, 81);
+    text-align: left;
+    margin: auto;
+    padding: 20px 15px 20px 15px;
+    letter-spacing: 2px;
+}
+
+.title_food_eat .title__second{
+    font-size: 14px;
+    margin: 0px 0px 15px 15px;
+    color: rgb(116, 135, 150);
+    text-align: left;
+    letter-spacing: 1px;
+}
+

@@ -1,0 +1,37 @@
+.title_food_cafe{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+
+    padding: 0 0 0 10px;
+}
+
+.title_food_cafe .title__first{
+    font-size: 14px;
+    display: block;
+    color: rgb(0, 0, 0);
+    position: relative;
+    text-align: left;
+    margin: auto auto 7px 0;
+    letter-spacing: 1px;
+    padding: 0;
+}
+
+.title_food_cafe .title__second{
+    font-size: 14px;
+    display: block;
+    color: rgb(116, 135, 150);
+    position: relative;
+    text-align: left;
+    margin: auto auto auto 0;
+    letter-spacing: 0px;
+}
+
+
+

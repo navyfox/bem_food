@@ -1,0 +1,31 @@
+.steps {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-flow: row nowrap;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    height: auto;
+    margin-top: 50px;
+}
+.steps__image-steps {
+    display: block;
+    text-align: center;
+    background: url("/desktop.blocks/steps/Steps.png") no-repeat 0 0;
+    width: 557px;
+    height: 92px;
+    margin-bottom: 20px;
+}
+
+@media all and (max-width: 600px) {
+    .steps__image-steps {
+        width: 254px;
+        height: 40px;
+        margin: 0 30px 20px 30px;
+        background-size: cover;
+    }
+}

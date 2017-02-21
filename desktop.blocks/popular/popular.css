@@ -1,0 +1,8 @@
+.popular {
+    background-image: url(/desktop.blocks/popular/popular.png);
+    min-height: 620px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 30px;
+}

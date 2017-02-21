@@ -1,0 +1,29 @@
+.title{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.title__first{
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    letter-spacing: 5px;
+}
+
+.title__second{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    margin: auto;
+    letter-spacing: 3px;
+}

@@ -1,0 +1,17 @@
+.distance{
+    padding: 12px 0 0 20px;
+}
+
+.distance__way{
+    color: rgb(252, 251, 249);
+    position: relative;
+    width: 56px;
+    height: 18px;
+    background-color: rgb(232, 80, 14);
+    border-radius: 3px;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 0 0 0;
+}
+
+
